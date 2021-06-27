@@ -1,3 +1,7 @@
+# can't find module if lack this code
+import sys
+sys.path.append('../code')
+
 import numpy as np
 import matplotlib.image as mpimg
 import matplotlib.pyplot as plt
